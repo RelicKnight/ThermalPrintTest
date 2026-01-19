@@ -13,7 +13,7 @@ Public Class Form1
 
         ' Optional: set your thermal printer here
         ' Replace "YOUR_PRINTER_NAME" with the exact name from Devices and Printers
-        ' PD.PrinterSettings.PrinterName = "YOUR_PRINTER_NAME"
+        'PD.PrinterSettings.PrinterName = "POS58 Printer"
 
         If dlg.ShowDialog() = DialogResult.OK Then
             PD.Print()
